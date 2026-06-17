@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho: Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agrinho: Futuro Sustentável</h1>
+        <p>Tecnologia e inovação para o campo e o meio ambiente</p>
+    </header>
 
+    <main>
+        <section class="card-painel">
+            <h2>Placar de Sustentabilidade</h2>
+            <p class="placar">Pontos Ecológicos: <span id="pontuacao">0</span> 🌱</p>
+        </section>
+
+        <section class="acoes-container">
+            <h2>Escolha suas Ações no Campo:</h2>
+            <div class="botoes-grupo">
+                <button class="btn-acao" onclick="adicionarPontos(10)">Regar com gotejamento (+10)</button>
+                <button class="btn-acao" onclick="adicionarPontos(15)">Plantar árvore nativa (+15)</button>
+                <button class="btn-acao" onclick="adicionarPontos(20)">Usar energia solar (+20)</button>
+                <button class="btn-reset" onclick="reiniciarPontos()">Zerar Painel</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto Desenvolvido para o Concurso Agrinho 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
