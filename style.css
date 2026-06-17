@@ -1,1 +1,91 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef5ee;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #1b5e20; /* Verde escuro institucional */
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Painel de Pontos */
+.card-painel {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.placar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+/* Área de Botões */
+.acoes-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.botoes-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Botões de Ação */
+.btn-acao {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.btn-acao:hover {
+    background-color: #388e3c;
+    transform: translateY(-2px);
+}
+
+/* Botão de Reset */
+.btn-reset {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-reset:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9rem;
+}
